@@ -118,7 +118,7 @@ class ProcessPayout
   def today_seller_payout_day?
     # @payout_schedule.payout_day == Date.today.strftime("%A")
 
-    # For tetss we will always return true
+    # For the test, we will always return true
     true
   end
 
